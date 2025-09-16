@@ -1,51 +1,1019 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arslan Muhammad</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Hassan Shah</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profilePic.jpeg" type="image/jpeg">
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="./assets/images/profilePic.jpeg">
+  <link rel="icon" type="image/jpeg" sizes="16x16" href="./assets/images/profilePic.jpeg">
+  <link rel="apple-touch-icon" href="./assets/images/profilePic.jpeg">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css?v=1.3">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home" class="tab-link active" onclick="showTab(event, 'home')">Home</a></li>
-            <li><a href="#about" class="tab-link" onclick="showTab(event, 'about')">About</a></li>
-            <li><a href="#resume" class="tab-link" onclick="showTab(event, 'resume')">Resume</a></li>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profilePic.jpeg" alt="Ali Hassan Shah">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="">Ali Hassan Shah</h1>
+
+          <p class="title">Embedded Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:engg.alibukharai@gmail.com" class="contact-link">engg.alibukharai@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+31684660252" class="contact-link">+31 6 84660252</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">WhatsApp</p>
+
+              <a href="https://wa.me/8618621973868" class="contact-link">+86 186 2197 3868</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Amsterdam, Netherlands</address>
+            </div>
+
+          </li>
+
         </ul>
-    </nav>
-    <div id="home" class="tab-content" style="display:block">
-        <h1>Welcome to My Homepage</h1>
-        <p>Hello! I'm Arslan Muhammad, a software developer.</p>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/alibukharai/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item" title="GitHub">
+            <a href="https://github.com/alibukharai" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item" title="Medium">
+            <a href="https://medium.com/@engg.alibukharai" class="social-link" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M0 0v24h24V0H0zm19.938 5.686L18.651 6.92a.376.376 0 0 0-.143.362v9.067a.376.376 0 0 0 .143.361l1.257 1.234v.271h-6.322v-.27l1.302-1.265c.128-.128.128-.165.128-.36V8.99l-3.62 9.195h-.49L6.69 8.99v6.163a.85.85 0 0 0 .233.707L8.946 17.9v.271H4.5v-.27L6.523 15.86a.82.82 0 0 0 .218-.707V8.027a.624.624 0 0 0-.203-.527L4.846 5.686v-.27h4.551l3.515 7.704 3.09-7.704h4.936v.27z"/>
+              </svg>
+            </a>
+          </li>
+
+                    <li class="social-item" title="Upwork">
+            <a href="https://www.upwork.com/freelancers/~01247c2e43e4d10f34" class="social-link" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 56.7 56.7" fill="currentColor">
+                <path d="M42.4 17.7c-5.3 0-9.3 3.5-10.9 9-2.5-3.9-4.5-8.3-5.6-12.1h-5.6v14.7c0 2.9-2.4 5.3-5.3 5.3s-5.3-2.4-5.3-5.3V14.6H4.2v14.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-2.5c1.1 2.2 2.5 4.6 4 6.7l-3.5 16.4h5.7l2.5-11.8c2.1 1.3 4.5 2 7.1 2 6.1 0 11-4.9 11-11s-4.9-11-11zm0 16.4c-2.9 0-5.3-2.4-5.3-5.3s2.4-5.3 5.3-5.3 5.3 2.4 5.3 5.3-2.4 5.3-5.3 5.3z"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="social-item" title="Resume">
+            <a href="./assets/Shah-CV-Netherlands.pdf" class="social-link" target="_blank">
+              <ion-icon name="newspaper-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Home</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item" style="display: none;">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #HOME
+      -->
+
+      <article class="home  active" data-page="home">
+
+        <header>
+          <h2 class="h2 article-title">hello</h2>
+        </header>
+
+        <section class="home-text">
+          <div class='div-text'>
+            <h3 class="h3" style="font-size: 2.5rem; margin-bottom: 20px; color: var(--orange-yellow-crayola);">I'm Ali Hassan Shah</h3>
+            <p>Embedded software engineer with 3 years of experience in C, C++, and Python, 
+              primarily focused on device drivers and firmware development. I am currently open to new oppurtunities where I can contribute and grow.</p>
+          </div>
+
+          <div class='div-lottie'> 
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+            <lottie-player src="https://lottie.host/1037d0db-bf54-46df-8a12-ae9b6a040ba7/aX8sUyGuPL.json" background="transparent" speed="0.5" style="width: 500px; height: 300px;" autoplay></lottie-player>
+          </div>
+        </section>
+      </article>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            My name is Ali Hassan Shah, and I have experience working in international companies such as AMD and Espressif Systems, where I contributed to both system-level and customer-facing software projects.            
+          </p>
+
+          <p>
+            At AMD (Shanghai, China), I initially joined the GPU software team as a developer but began by working as a software tester to gain deep familiarity with the kernel driver stack. This gave me valuable insight into the system architecture and led me to take the initiative to develop a unified RAS tool capable of supporting multiple ASIC generations. In addition, I’ve contributed to the development of internal debugging tools leveraging modern LLM workflows, making issue triage and system bring-up more efficient. My primary coding work involves C, C++, and Python, with a focus on reliability and scalability.
+          </p>
+
+          <p>
+            At Espressif Systems (Shanghai, China), I worked on customer-facing IoT projects using the ESP32 platform, delivering complete solutions with standardized software stacks in C and C++. These projects included Matter-compliant devices and edge AI use cases, where I collaborated closely with customers to ensure robust integration.
+          </p>
+
+          <p>
+            I’m passionate about embedded software design, particularly for tiny, resource-constrained devices, and enjoy bridging the gap between low-level hardware and high-level system software.
+          </p>
+
+          <button class="res-btn" type="button" onclick="window.open('./assets/Shah-CV-Netherlands.pdf','_blank');">
+            <ion-icon name="newspaper-outline"></ion-icon>
+            <span>Resume</span>
+          </button>
+
+        </a>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-c.png" alt="programming icon" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming & Scripting</h4>
+                <p class="service-item-text">Python, C, C++, Shell scripting</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-hw.png" alt="embedded icon" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Embedded Systems</h4>
+                <p class="service-item-text">Device drivers, I2C/SPI/UART protocols, RTOS</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="checkmark-circle-outline" style="font-size: 40px; color: hsl(45, 100%, 72%);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Testing & Automation</h4>
+                <p class="service-item-text">Pytest, Test planning, Regression testing, Integration testing</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="git-branch-outline" style="font-size: 40px; color: hsl(45, 100%, 72%);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DevOps & CI/CD</h4>
+                <p class="service-item-text">Azure DevOps, Jenkins, GitLab CI/CD, Docker</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="git-commit-outline" style="font-size: 40px; color: hsl(45, 100%, 72%);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Version Control & Tools</h4>
+                <p class="service-item-text">Git, GitHub, GitLab</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="people-outline" style="font-size: 40px; color: hsl(45, 100%, 72%);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Project Management</h4>
+                <p class="service-item-text">Jira, Agile, Confluence</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="terminal-outline" style="font-size: 40px; color: hsl(45, 100%, 72%);"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Operating Systems</h4>
+                <p class="service-item-text">Linux (Ubuntu, RHEL)</p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <button class="res-btn" type="button" onclick="window.open('./assets/Shah-CV-Netherlands.pdf','_blank');">
+          <ion-icon name="newspaper-outline"></ion-icon>
+          <span>Resume</span>
+        </button>
+
+        <h2 class="h2 article-title"></h2>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master's in  Electronics Engineering</h4>
+
+              <div class="timeline-date">2019 — 2022</div>
+
+              <p class="timeline-text">
+                <strong style="color: var(--orange-yellow-crayola);">FUDAN University, Shanghai, China</strong><br>
+                Specialized in Electronics Engineering with focus on embedded systems, high speed electronics, HDL Based design and advanced digital systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor's in Electrical Engineering</h4>
+
+              <div class="timeline-date">2013 — 2017</div>
+
+              <p class="timeline-text">
+                <strong style="color: var(--orange-yellow-crayola);">COMSATS University of Science and Technology, Abbottabad, Pakistan</strong><br>
+                Specialized in Electronics Engineering with focus on embedded systems, electrical engineering, and digital systems.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Engineer - <a href="https://www.amd.com/en.html" target="_blank" style="color: var(--orange-yellow-crayola); text-decoration: none;">AMD</a></h4>
+
+              <div class="timeline-date">Feb 2024 — Present</div>
+
+              <p class="timeline-text">
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">AI Adoption for Kernel Log Analysis (August 2024 – Present)</strong><br>
+                • Proposed and secured leadership buy-in for an AI-driven tool to assist kernel developers in triaging errors<br>
+                • Led cross-team collaboration (IQE, CVS, and Linux kernel teams) to integrate LLM-based analysis of kernel logs, reducing manual effort and improving issue triaging efficiency<br>
+                • Designed and implemented a Go-based framework to parse and categorize kernel logs before passing them to the LLM for actionable insights<br><br>
+                
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">Unified RAS Tool Development (January 2024 – July 2024)</strong><br>
+                • Contributed to unifying the RAS (Reliability, Availability, Serviceability) Tool as a Linux userspace toolkit across multiple ASICs<br>
+                • Worked closely with senior developers to add new hardware support and refactor existing codebase for maintainability and scalability<br><br>
+                
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">RAS Tool for Virtualization (September 2024 – December 2024)</strong><br>
+                • Enhanced the RAS Tool to simulate hardware error cases, validating driver compatibility under virtualization environments<br>
+                • Developed features supporting SR-IOV use cases with multiple VMs on server-class infrastructure<br><br>
+                
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">IQE Testing Framework for Data Center GPUs (February 2024 – August 2024)</strong><br>
+                • Gained hands-on expertise in the Linux kernel development and integration process<br>
+                • Performed regression and integration testing of kernel patches and firmware<br>
+                • Built a Bash-based CI automation framework for test execution, later leading its migration to a Pytest framework for better maintainability and extensibility<br>
+                • Partnered with developers and QA teams to accelerate debugging and improve release quality
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Embedded Software Engineer - <a href="https://www.espressif.com.cn" target="_blank" style="color: var(--orange-yellow-crayola); text-decoration: none;">Espressif Systems</a></h4>
+
+              <div class="timeline-date">Sep 2022 — Dec 2023</div>
+              
+              <p class="timeline-text">
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">Key Responsibilities</strong><br>
+                • Designed and maintained production-ready embedded software for ESP32-based IoT devices using C/C++<br>
+                • Integrated device drivers (I2C/SPI/UART) and implemented Matter protocol support for smart home applications<br>
+                • Developed customer-facing solutions and work with them to provide them end to end support<br><br>
+
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">Key Technical Projects</strong><br>
+              <p class="timeline-text">
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">ESP32 Smart Knob Controller (Aug 2023 – Dec 2023)</strong><br>
+                • Architected Matter-compliant smart home rotary controller with sub-millisecond response times<br>
+                • Developed advanced encoder driver with hardware interrupt-driven quadrature decoding<br>
+                • Implemented complete Matter protocol stack with Thread/Wi-Fi networking and device commissioning<br>
+                • Designed LVGL-based GUI for real-time monitoring and control interface<br><br>
+
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">ESP-FOC Driver Development (Aug 2023 – Dec 2023)</strong><br>
+                • Engineered Field-Oriented Control driver for ESP32 achieving 95%+ motor efficiency<br>
+                • Implemented Clarke/Park transformations and Space Vector Modulation algorithms<br>
+                • Developed hardware abstraction layer supporting 8+ motor driver chipsets (DRV8302, DRV8313)<br>
+                • Created real-time control framework with 20kHz deterministic control loops<br><br>
+
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">ESP-BOX AI Assistant (May 2023 – July 2023)</strong><br>
+                • Integrated ESP-BOX with OpenAI APIs, developing C library and LVGL-based GUI chatbot for edge AI<br>
+                • Reduced latency issues on constrained devices through optimized implementation<br>
+                • Enabled TinyUF2 bootloader support for secure and simplified firmware deployment<br><br>
+
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">Matter Button Driver (Jan 2023 – Apr 2023)</strong><br>
+                • Developed Matter-compliant button driver enabling single button to perform multiple tasks without breaking APIs<br>
+                • Created Arduino wrapper for easy customer adoption of Matter-compliant devices<br>
+                • Provided end-to-end support for Matter certification including software alignment and UL lab testing<br><br>
+
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">ESP Edge AI Framework (Sep 2022 – Jan 2023)</strong><br>
+                • Delivered customer-facing Edge AI solutions on ESP32-S3, strengthening real-world application adoption<br>
+                • Deployed CNN-based hand gesture recognition achieving ~0.7s on-device inference without cloud dependency<br>
+                • Built human activity recognition model using accelerometer data + ESP-DL<br>
+                • Developed Python Tkinter GUI for training & deploying custom AI models, simplifying customer onboarding<br><br>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Engineering Intern - <a href="http://en.fulllightcn.com/" target="_blank" style="color: var(--orange-yellow-crayola); text-decoration: none;">Shanghai Fulllight Technology</a></h4>
+
+              <div class="timeline-date">Aug 2020 — Apr 2021</div>
+
+              <p class="timeline-text">
+                <strong style="font-size: 16px; color: var(--orange-yellow-crayola);">Interior Car Lamp Feedback System</strong><br>
+                • Designed feedback control system with Melexis 81118 IC using C programming for real-time color temperature correction<br>
+                • Implemented PWM-based voltage adjustment achieving precise automotive lighting control<br>
+                • Conducted research on circadian light effects with experimental design and data analysis using Python and SPSS<br>
+                • Developed embedded control algorithms for adaptive automotive lighting systems
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Management Trainee - <a href="#" target="_blank" style="color: var(--orange-yellow-crayola); text-decoration: none;">TEC Engineering Consultant</a></h4>
+
+              <div class="timeline-date">Jun 2017 — Jun 2018</div>
+
+              <p class="timeline-text">
+                • Set up WCDMA and LTE testing environments using Linux and Shell scripting<br>
+                • Configured Radio Base Stations (RBS) and executed verification tests for telecom features<br>
+                • Gained experience with Git/Gerrit, JIRA, and Agile methodologies
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AMD Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Espressif Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AMD Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Espressif Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            </li>
+
+            <!-- TEMPORARILY HIDDEN - RAS Tool project (will be updated later)
+            <li class="project-item  active" data-filter-item data-category="AMD Projects">
+              <a href="./projects/ras-tool.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/icon-research.png" alt="RAS Tool" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RAS Tool for MI-Series GPUs</h3>
+
+                <p class="project-category">AMD Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Real-time error monitoring and injection for MI300/MI308 GPUs in data center deployments</p>
+
+              </a>
+            </li>
+            -->
+
+            <!-- TEMPORARILY HIDDEN - SR-IOV & GIM project (will be updated later)
+            <li class="project-item  active" data-filter-item data-category="AMD Projects">
+              <a href="./projects/sriov-virtualization.html">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/icon-research.png" alt="GPU Virtualization" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SR-IOV & GIM Virtualization</h3>
+
+                <p class="project-category">AMD Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Multi-tenant GPU virtualization for enterprise clusters with ROCm compatibility</p>
+
+              </a>
+            </li>
+            -->            <li class="project-item  active" data-filter-item data-category="Espressif Projects">
+              <a href="./projects/esp-knob.html">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/FOCknob.png" alt="ESP32 Smart Knob Controller" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ESP32 Smart Knob Controller</h3>
+
+                <p class="project-category">Espressif Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Matter-compliant smart home rotary controller with precision encoder processing and advanced firmware development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Espressif Projects">
+              <a href="./projects/esp-foc-driver.html">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/foc_knob.gif" alt="ESP-FOC Driver Development" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ESP-FOC Driver Development</h3>
+
+                <p class="project-category">Espressif Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Advanced Field-Oriented Control driver for ESP32 with 95%+ efficiency and real-time performance optimization</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Espressif Projects">
+              <a href="./projects/esp-box-ai.html">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/esp-box.png" alt="ESP-BOX AI Assistant" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ESP-BOX AI Assistant</h3>
+
+                <p class="project-category">Espressif Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Edge AI chatbot with OpenAI integration, featuring optimized C library implementation and LVGL-based GUI for constrained devices</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Espressif Projects">
+              <a href="./projects/matter-button.html">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/matter.jpg" alt="Matter Protocol Button Driver" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Matter Button Driver</h3>
+
+                <p class="project-category">Espressif Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Production-ready Matter-compliant button driver with multi-function operation, Arduino compatibility, and full UL certification support</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Espressif Projects">
+              <a href="./projects/esp-edge-ai.html">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/hand.webp" alt="ESP Edge AI Hand Gesture Recognition" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ESP Edge AI Framework</h3>
+
+                <p class="project-category">Espressif Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">CNN-based hand gesture recognition achieving ~0.7s on-device inference with Python training tools and comprehensive customer deployment framework</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Espressif Projects">
+              <a href="./projects/esp-joystick.html">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/joy.png" alt="ESP-BOX Joystick" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ESP-BOX Joystick</h3>
+
+                <p class="project-category">Espressif Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Advanced analog input processing with interactive simulation, event-driven architecture, and comprehensive hardware integration for embedded control systems</p>
+
+              </a>
+            </li>
+
+            <!-- TEMPORARILY HIDDEN - Python Automation project (will be updated later)
+            <li class="project-item  active" data-filter-item data-category="AMD Projects">
+              <a href="./projects/python-automation.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/icon-python.png" alt="Python Automation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Python Automation & CI/CD</h3>
+
+                <p class="project-category">AMD Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Python automation frameworks and CI/CD pipelines for unified RAS tooling across GPU families with Jenkins integration</p>
+
+              </a>
+            </li>
+            -->
+
+            <li class="project-item  active" data-filter-item data-category="Other Projects">
+              <a href="./projects/car-lamp-system.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/icon-hw.png" alt="Interior Car Lamp System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Interior Car Lamp Feedback System</h3>
+
+                <p class="project-category">Other Projects</p>
+                <p class="project-description" style="font-size: 12px; color: var(--light-gray-70); margin-top: 5px;">Real-time color temperature correction for automotive lighting using Melexis IC and PWM control</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="articles" data-page="blog" style="display: none;">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="articles-content">
+          <p style="color: var(--light-gray); font-size: var(--fs-6); margin-bottom: 30px;">
+            Technical blog posts and insights on Linux kernel development, embedded systems, and GPU technologies.
+          </p>
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Edge AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Linux Kernel</button>
+            </li>
+
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Edge AI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Linux Kernel</button>
+              </li>
+
+
+
+            </ul>
+
+          </div>
+
+          <ul class="articles-list">
+            
+            <!-- Edge AI Article -->
+            <li class="article-item active" data-filter-item data-category="edge ai">
+              <div class="article-content">
+                <h3 class="h3 article-title">
+                  <a href="./blog/embedded-ai-edge-computing.html" style="color: var(--white-2); text-decoration: none;">
+                    Embedded AI and Edge Computing
+                  </a>
+                </h3>
+                <p class="article-meta" style="color: var(--light-gray-70); font-size: var(--fs-7); margin-bottom: 10px;">
+                  April 2024 • 18 min read
+                </p>
+                <p style="color: var(--light-gray); line-height: 1.6; margin-bottom: 15px;">
+                  Exploring AI deployment on embedded systems, model optimization techniques, 
+                  and building intelligent edge computing solutions with ESP32 and TinyML.
+                </p>
+                <a href="./blog/embedded-ai-edge-computing.html" class="article-link" 
+                   style="color: var(--orange-yellow-crayola); text-decoration: none; font-size: var(--fs-7);">
+                  <ion-icon name="link-outline" style="margin-right: 5px;"></ion-icon>
+                  Read Article →
+                </a>
+              </div>
+            </li>
+
+
+
+            <!-- Linux Kernel Article -->
+            <li class="article-item active" data-filter-item data-category="linux kernel">
+              <div class="article-content">
+                <h3 class="h3 article-title">
+                  <a href="./blog/linux-kernel-debugging.html" style="color: var(--white-2); text-decoration: none;">
+                    Advanced Linux Kernel Debugging Techniques
+                  </a>
+                </h3>
+                <p class="article-meta" style="color: var(--light-gray-70); font-size: var(--fs-7); margin-bottom: 10px;">
+                  March 2024 • 15 min read
+                </p>
+                <p style="color: var(--light-gray); line-height: 1.6; margin-bottom: 15px;">
+                  Comprehensive guide to advanced debugging techniques for Linux kernel development, 
+                  including KGDB, ftrace, and memory debugging with practical examples.
+                </p>
+                <a href="./blog/linux-kernel-debugging.html" class="article-link" 
+                   style="color: var(--orange-yellow-crayola); text-decoration: none; font-size: var(--fs-7);">
+                  <ion-icon name="link-outline" style="margin-right: 5px;"></ion-icon>
+                  Read Article →
+                </a>
+              </div>
+            </li>
+
+          </ul>
+          
+          <div style="text-align: center; margin-top: 40px;">
+            <a href="https://medium.com/@engg.alibukharai" target="_blank" class="form-btn" 
+               style="display: inline-block; text-decoration: none;">
+              <ion-icon name="logo-medium"></ion-icon>
+              <span>Follow on Medium</span>
+            </a>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+          <p>For further inquiries, feel free to contact me!</p>
+          <p>Use the info in the sidebar or use this contact form.</p>
+
+          <form id="contact-form" action="https://formspree.io/f/mrblwlrp" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            </div>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+          <div style="text-align: center; margin-top: 20px;">
+            <p style="color: var(--light-gray-70); font-size: var(--fs-7);">
+              Having issues with the form? 
+              <a href="mailto:engg.alibukharai@gmail.com" style="color: var(--orange-yellow-crayola); text-decoration: none;">
+                Email me directly
+              </a>
+            </p>
+          </div>
+
+        </section>
+
+      </article>
+
     </div>
-    <div id="about" class="tab-content">
-        <h1>About Me</h1>
-        <p>
-            Write a short introduction about yourself here.<br>
-            Example: I'm a CS student interested in kernel development and C++ programming.
-        </p>
-    </div>
-    <div id="resume" class="tab-content">
-        <h1>Resume</h1>
-        <p>
-            Add your educational background, work experience, and skills here.<br>
-            Example: BSc in Computer Science, Contributor to open-source projects, etc.
-        </p>
-    </div>
-    <script>
-        function showTab(evt, tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tab-content");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tab-link");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js?v=1.1"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
